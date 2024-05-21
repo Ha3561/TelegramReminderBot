@@ -8,7 +8,8 @@ import Hero from "./components/Hero";
 import About from "./components/About" 
 import Technologies from "./components/Technologies" 
 import Experience from "./components/Experience" 
-import Projects from "./components/Projects"
+import Projects from "./components/Projects" 
+import Contact from "./components/Contact"
 
 export default function Home() {
   return ( 
@@ -29,9 +30,15 @@ export default function Home() {
         <hr className='border-t-2 border-neutral-950' />
         
         <hr className='border-t-2 border-neutral-950' /> 
-        <Experience /> 
+        <Experience />  
+        <hr className='border-t-2 border-neutral-950' /> 
         <Projects /> 
+        <hr className='border-t-2 border-neutral-950' /> 
         <Technologies /> 
+        <hr className='border-t-2 border-neutral-950' />  
+        <Contact /> 
+        <br />
+        <footer className='bg-gradient-to-b from-pink-700 to-slate-1000'></footer>
       </div>
     </div>
   
